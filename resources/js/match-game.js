@@ -29,6 +29,8 @@ var MatchGame = {};
    return cardValues;
  };
 
+ Implement.generateCardValues();
+ Implement.renderCards();
 /*
   Converts card values to jQuery card objects and adds them to the supplied game
   object.
