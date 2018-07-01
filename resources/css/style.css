@@ -1,0 +1,46 @@
+html, body {
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: rgb(255, 242, 242);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32, 64, 86);
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: 1rem;
+  color: rgb(74, 74, 74);
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  margin: 5.25rem auto;
+  background-color: rgb(255, 242, 242);
+}
+
+.card {
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border-radius: 8px;
+  border:4px solid #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
