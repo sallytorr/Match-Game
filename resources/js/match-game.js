@@ -1,4 +1,6 @@
-$(document).ready();
+$(document).ready(function() {
+
+
 
 var MatchGame = {};
 
@@ -51,3 +53,4 @@ $('#game').empty();
 MatchGame.flipCard = function($card, $game) {
 
 };
+});
