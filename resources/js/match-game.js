@@ -22,7 +22,7 @@ var MatchGame = {};
 
    while (sequentialValues.length > 0) {
      var randomIndex = Math.floor(Math.random() * sequentialValues.length);
-     var randomValue = sequentialValues.splice(randomIndex, 1)[0];
+     var randomValue = sequentialValues.splice(randomIndex, 1[0]);
      cardValues.push(randomValue);
    }
 
@@ -37,6 +37,7 @@ var MatchGame = {};
 */
 
 MatchGame.renderCards = function(cardValues, $game) {
+$('#game').empty();
 
 };
 
