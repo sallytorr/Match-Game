@@ -1,7 +1,9 @@
 $(document).ready(function() {
+    var $game = $('#game');
+    var values = MatchGame.generateCardValues();
+    MatchGame.renderCards(values, $game);
 
-
-
+});
 var MatchGame = {};
 
 /*
@@ -53,4 +55,3 @@ $('#game').empty();
 MatchGame.flipCard = function($card, $game) {
 
 };
-});
